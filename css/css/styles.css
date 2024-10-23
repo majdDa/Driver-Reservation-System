@@ -1,0 +1,156 @@
+	body,
+		html {
+			
+			margin: 0;
+			padding: 0;
+			height: 100%;
+			background: #FFF3F8 !important;
+		}
+		.user_card {
+			height: 550px;
+			width: 450px;
+			margin-top: auto;
+			margin-bottom: auto;
+			background: #F3D3DF;
+			border: 15px solid #581845; 
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 40px;
+			box-shadow: 0 2px 15px 0 rgba(0.4, 0.4, 0.4, 1), 0 6px 10px 0 rgba(0, 0, 0, 1);
+			border-radius: 135px;
+
+		}
+		.brand_logo_container {
+			position: absolute;
+			background: #FFF3F8;
+			height: 160px;
+			width: 163px;
+			top: -90px;
+			border-radius: 25%;
+			border: 10px solid #581845; 
+			padding: 2px;
+			box-shadow: 0 6px 6px 0 rgba(1.8, 1.8, 1.8, 2), 0 6px 20px 0 rgba(0.2, 0.2, 0.2, 0.2);
+			text-align: center;
+		}
+		.brand_logo {
+			height: 139px;
+			width: 140px;
+			border-radius: 25%;
+			border: 2px solid #FFF3F8;
+		}
+		.btn-outline-danger
+		{
+			width: 100%;
+			color: #581845;
+			border-color: #581845; 
+			border-radius: 1.25rem 1.25rem 1.25rem 1.25rem !important;
+		}
+		.btn-outline-danger:hover
+		{
+			color: white;
+			border-color: #581845;
+			background-color: #581845;
+			border-radius: 1.25rem 1.25rem 1.25rem 1.25rem !important;			
+		}
+		.form_container {
+			margin-top: 80px;
+		}
+		.login_container {
+			padding: 0 2rem;
+		}
+		.input-group-text {
+			background: #581845  !important;
+			color: white !important;
+			border: 0 !important;
+			border-radius: 1.25rem 0 0 1.25rem !important;
+		}
+		.input_user,
+		.input_pass{
+			box-shadow: none !important;
+			outline: 0px !important;
+			border: 1px solid #581845; 
+			border-radius: 0 1.25rem 1.25rem 0 !important;
+		}
+		.input_code{
+			box-shadow: none !important;
+			outline: 0px !important;
+			border: 1px solid #581845;
+			border-radius: 1.25rem 1.25rem ;
+		}
+a {
+    color:#581845;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+#logInSuccess
+{
+ display:none;
+}
+
+#logInError
+{
+	display:none;
+}
+
+#captchaError
+{
+	display:none
+}
+#emptyLogInError
+{
+	display:none;
+}
+
+#emptyTokenInError
+{
+	display:none;
+}
+#token
+{
+	display:none
+}
+
+
+#num-m
+{
+	display:none
+}
+    .hr{
+      height:1px;
+      margin:60px 0 50px 0;
+      background:rgba(0.4, 0.4, 0.4, 1);
+	}
+	
+	    .foot-lnk{
+      text-align:center;
+	}
+	
+.pass_show{
+	position: relative
+} 
+
+.pass_show .ptxt { 
+
+position: absolute; 
+
+top: 50%; 
+
+right: 10px; 
+
+z-index: 1; 
+
+color: #f36c01; 
+
+margin-top: -10px; 
+
+cursor: pointer; 
+
+transition: .3s ease all; 
+
+} 
+
+.pass_show .ptxt:hover{color: #333333;} 

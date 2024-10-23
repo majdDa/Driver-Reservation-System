@@ -1,0 +1,52 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+
+.footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #581845;
+  color: white;
+  text-align: center;
+}
+
+#calendar 
+{
+  width: 100%;
+  margin: 40px auto;
+  background-color: #FFF2FA;
+  color: black;
+  border: 4px solid #581845; 
+  padding: 5px 5px;
+  margin: 4px 4px;
+  box-sizing: border-box;	
+  box-shadow: 0 1px 1px 0 rgb(88, 24, 69 ), 0 12px 20px 0 rgb(88, 24, 69 );  
+}
+.fc-content,.fc-event
+{
+border: 0.1px solid #581845;
+	background:#581845;
+border-color:#581845;
+	color:white;
+}
+.fc-button-primary
+{
+	background:#581845;
+border-color:#581845;
+	color:white;
+}
+
+.fc-button-primary:not(:disabled):active, .fc-button-primary:not(:disabled).fc-button-active,.fc-button-primary:disabled
+{
+background:#380f2c;
+border-color:#380f2c;
+	color:white;
+}
+

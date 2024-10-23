@@ -1,0 +1,46 @@
+body,
+html
+{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	font-size: 14px;
+	font-style: italic;
+	background: #FFFCFE;
+}
+form 
+{
+  background-color: #FFF2FA;
+  color: black;
+  border: 4px solid #581845; 
+  padding: 5px 5px;
+  margin: 2px 2px;
+  box-sizing: border-box;	
+  box-shadow: 0 1px 1px 0 rgb(88, 24, 69 ), 0 12px 20px 0 rgb(88, 24, 69 );  
+}
+
+.footer
+{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #581845;
+  color: white;
+  text-align: center;
+}
+
+.btn-outline-info
+{
+
+color: #177db8;
+    background-color: transparent;
+border-color: #177db8;
+}
+.btn-outline-info:disabled
+{
+
+color: #f05974;
+    background-color: transparent;
+border-color: #f05974;
+}
